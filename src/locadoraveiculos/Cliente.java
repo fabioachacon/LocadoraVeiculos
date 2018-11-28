@@ -58,6 +58,8 @@ public class Cliente {
                 telApenasNumeros = Long.parseLong(tel);
                 
             }catch(NumberFormatException e){
+		    
+		    System.out.println(e);
                
             }
             if(telApenasNumeros < 0){
